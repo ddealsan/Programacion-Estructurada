@@ -19,7 +19,7 @@ int main() {
     estudiante2->edad = 22;
     estudiante2->promedio = 9.8;
 
-    Estudiante* punteroEst = &estudiante1;
+    Estudiante* punteroEst = &estudiante1;//
     std::printf("Nombre: %s, Edad: %d, Promedio: %.2f\n", punteroEst->nombre, punteroEst->edad, punteroEst->promedio);
 
     delete estudiante2; // Borrado de espacio en memoria
