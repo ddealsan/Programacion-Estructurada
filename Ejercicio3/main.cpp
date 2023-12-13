@@ -14,3 +14,9 @@ Estudiante copiarEstudiante(Estudiante est) {
     nuevoEst.promedio = est.promedio;
     return nuevoEst;
 }
+
+int main() {
+    Estudiante est1;
+    std::strcpy(est1.nombre, "Jose Carlos");
+    est1.edad = 21;
+    est1.promedio = 9.5;
