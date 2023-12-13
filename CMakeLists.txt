@@ -16,3 +16,6 @@ add_executable(Ejercicio3
 add_executable(Ejercicio4
         Ejercicio4/main.cpp
 )
+add_executable(Ejercicio5
+        Ejercicio5/main.cpp
+)
