@@ -1,3 +1,10 @@
-//
-// Created by dalfo on 13/12/2023.
-//
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+
+
+union Dato {
+    int i;
+    float f;
+    char str[20];
+};
