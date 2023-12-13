@@ -1,3 +1,7 @@
-//
-// Created by dalfo on 13/12/2023.
-//
+#include <cstring>
+
+typedef struct Estudiante {
+    char nombre[50];
+    int edad;
+    float promedio;
+} Estudiante;
