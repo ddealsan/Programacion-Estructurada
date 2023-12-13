@@ -20,3 +20,11 @@ int main() {
     std::strcpy(est1.nombre, "Jose Carlos");
     est1.edad = 21;
     est1.promedio = 9.5;
+
+    Estudiante est2 = copiarEstudiante(est1);
+
+    std::cout << "Original Estudiante: " << est1.nombre << ", " << est1.edad << ", " << est1.promedio << std::endl;
+    std::cout << "Copied Estudiante: " << est2.nombre << ", " << est2.edad << ", " << est2.promedio << std::endl;
+
+    return 0;
+}
