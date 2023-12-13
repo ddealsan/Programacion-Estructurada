@@ -5,3 +5,4 @@ typedef struct Estudiante {
     int edad;
     float promedio;
 } Estudiante;
+
